@@ -1,0 +1,20 @@
+---
+name: "get_build_console_output"
+runner_type: "python-script"
+description: "Retrieve build console output"
+enabled: true
+entry_point: "get_build_console_output.py"
+parameters:
+  project:
+    type: "string"
+    description: "Name of the Jenkins job"
+    required: true
+  number:
+    type: "integer"
+    description: "Build number"
+    required: true
+  config_override:
+    type: "object"
+    required: false
+    secret: true
+    description: "Override pack configuration by providing an object with url, username and password keys and appropriate values"
