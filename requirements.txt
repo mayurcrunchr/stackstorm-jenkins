@@ -2,3 +2,4 @@ requests
 git+https://github.com/crunchr/requests-kerberos.git
 https://github.com/crunchr/stackstorm-jenkins/blob/master/kerberos-1.3.1-cp27-cp27mu-linux_x86_64.whl?raw=true
 python-jenkins>=1.4.0
+PyOpenSSL
